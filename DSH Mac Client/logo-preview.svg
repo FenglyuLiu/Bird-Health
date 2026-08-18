@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="150" y1="110" x2="860" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#112D45"/>
+      <stop offset="1" stop-color="#061722"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="330" y1="220" x2="700" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0A0"/>
+      <stop offset=".48" stop-color="#E4B548"/>
+      <stop offset="1" stop-color="#AD7115"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="208" y1="600" x2="815" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BE2F5"/>
+      <stop offset=".5" stop-color="#329FD1"/>
+      <stop offset="1" stop-color="#17699F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".24"/>
+    </filter>
+  </defs>
+
+  <rect x="72" y="72" width="880" height="880" rx="210" fill="url(#bg)"/>
+  <rect x="86" y="86" width="852" height="852" rx="196" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="4"/>
+
+  <g filter="url(#shadow)">
+    <!-- 保留满月意象，但以干净色块呈现 -->
+    <circle cx="512" cy="438" r="237" fill="url(#gold)"/>
+
+    <!-- 保留海浪意象，简化为一主一辅两层大曲面 -->
+    <path d="M177 756C273 607 376 545 483 552c84 6 135 58 205 71 49 10 91 1 145-34-26 76-78 132-151 158-92 33-170 5-242-38-63-38-120-41-171-10 61-7 111 10 159 48 64 50 126 67 200 47-78 91-184 119-306 81-65-20-116-59-145-119z" fill="url(#sea)"/>
+
+    <!-- 浪脊从同一左侧尖端生发，并顺着下层海浪边缘延展 -->
+    <path d="M177 756c82-102 171-144 264-124 64 14 111 56 168 75 48 16 94 12 143-30-37 58-91 91-158 95-72 4-124-33-181-60-75-36-149-21-236 44z" fill="#A4EFF8" opacity=".76"/>
+  </g>
+</svg>

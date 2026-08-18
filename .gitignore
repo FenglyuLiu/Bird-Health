@@ -1,0 +1,27 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Operating system and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+.tmp/
+tmp/
+
+# Common dependency and build artifacts
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+coverage/
+
+# DSH Mac Client generated artifacts
+DSH Mac Client/.cache/
+DSH Mac Client/dist/
