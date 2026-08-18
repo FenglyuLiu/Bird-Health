@@ -16,7 +16,8 @@
 2. `CONTRIBUTING.md`：开发、验证与提交规范；
 3. `docs/agent-handoff.md`：当前进度和下一步；
 4. `docs/architecture.md`：系统边界和架构现状；
-5. `docs/decisions/`：已经确认的长期设计决策。
+5. `docs/decisions/`：已经确认的长期设计决策；
+6. `docs/project-background.md`：项目背景与愿景（长期记忆，讨论记录，未经验证不得作为既定事实）。
 
 ## 快速检查
 
@@ -41,6 +42,8 @@ make check
 ├── docs/
 │   ├── agent-handoff.md
 │   ├── architecture.md
+│   ├── architecture-proposal.md
+│   ├── project-background.md
 │   └── decisions/
 ├── agent/
 │   ├── README.md
